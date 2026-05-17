@@ -1,0 +1,28 @@
+Why RNNs Struggle with Long-Term Dependencies
+RNNs process text one word at a time. When sequences become very long, earlier information may be forgotten. This problem is called the vanishing gradient problem.
+
+How LSTMs Help with Memory
+LSTMs use memory cells and gates:
+Forget gate
+Input gate
+Output gate
+These gates help the model decide what information to keep or remove, allowing it to remember important information for longer periods.
+
+What Attention Solves
+Attention helps the model focus on the most important words in a sentence instead of depending only on previous hidden states.
+Example:
+In translation tasks, attention helps the model focus on relevant words while generating each output word.
+
+Why Transformers are Important
+Transformers process all words in parallel instead of sequentially.
+
+Advantages:
+Faster training
+Better understanding of long-range relationships
+Works well on large datasets
+Used in modern AI systems like:
+GPT
+BERT
+Gemini
+Claude
+Transformers are the foundation of modern NLP and Generative AI.
